@@ -1,0 +1,59 @@
+body {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.todobox {
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputgroup {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(203, 203, 220);
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: auto;
+    flex: 3;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #9fafa3;
+}
+
+.actions button {
+    margin: 5px;
+    padding: 5px;
+}
